@@ -222,6 +222,7 @@ func (c *linuxContainer) Set(config configs.Config) error {
 }
 
 func (c *linuxContainer) Start(process *Process) error {
+	fmt.Printf("STARTING CONTAINER WITH CUSTOM RUNC\n")
 	c.m.Lock()
 	defer c.m.Unlock()
 	status, err := c.currentStatus()

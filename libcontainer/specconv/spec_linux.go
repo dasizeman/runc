@@ -49,13 +49,13 @@ var allowedDevices = []*configs.Device{
 	// 	Permissions: "m",
 	// 	Allow:       true,
 	// },
-	{
-		Type:        'b',
-		Major:       wildcard,
-		Minor:       wildcard,
-		Permissions: "m",
-		Allow:       true,
-	},
+	// {
+	// 	Type:        'b',
+	// 	Major:       wildcard,
+	// 	Minor:       wildcard,
+	// 	Permissions: "m",
+	// 	Allow:       true,
+	// },
 	{
 		Type:        'c',
 		Path:        "/dev/null",
